@@ -1,0 +1,9 @@
+X:\Library\Echenim\Echenim.Run\bin\Debug\Echenim.Run.exe.config
+X:\Library\Echenim\Echenim.Run\bin\Debug\Echenim.Run.exe
+X:\Library\Echenim\Echenim.Run\bin\Debug\Echenim.Run.pdb
+X:\Library\Echenim\Echenim.Run\bin\Debug\Echenim.Nine.dll
+X:\Library\Echenim\Echenim.Run\bin\Debug\Echenim.Nine.pdb
+X:\Library\Echenim\Echenim.Run\obj\Debug\Echenim.Run.csprojResolveAssemblyReference.cache
+X:\Library\Echenim\Echenim.Run\obj\Debug\Echenim.Run.exe
+X:\Library\Echenim\Echenim.Run\obj\Debug\Echenim.Run.pdb
+Z:\ProductsAndService\Library\Echenim\Echenim.Run\bin\Debug\Echenim.Run.exe.config
