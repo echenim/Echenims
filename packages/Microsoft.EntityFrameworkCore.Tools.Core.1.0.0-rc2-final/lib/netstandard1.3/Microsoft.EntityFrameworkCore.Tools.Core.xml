@@ -1,0 +1,268 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.EntityFrameworkCore.Tools.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.EntityFrameworkCore.Design.OperationException">
+            <summary>
+                Represents an exception whose stack trace should, by default, not be reported by the commands.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.DuplicateMigrationName(System.Object)">
+            <summary>
+            The name '{migrationName}' is used by an existing migration.
+            </summary>
+        </member>
+        <member name="P:Microsoft.EntityFrameworkCore.ToolsCoreStrings.MultipleContexts">
+            <summary>
+            More than one DbContext was found. Specify which one to use. Use the '-Context' parameter for PowerShell commands and the '--context' parameter for dotnet commands.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.MultipleContextsWithName(System.Object)">
+            <summary>
+            More than one DbContext named '{name}' was found. Specify which one to use by providing its fully qualified name.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.MultipleContextsWithQualifiedName(System.Object)">
+            <summary>
+            More than one DbContext named '{name}' was found. Specify which one to use by providing its fully qualified name using its exact case.
+            </summary>
+        </member>
+        <member name="P:Microsoft.EntityFrameworkCore.ToolsCoreStrings.NoContext">
+            <summary>
+            No DbContext was found. Ensure that you're using the correct assembly and that the type is neither abstract nor generic.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.NoContextWithName(System.Object)">
+            <summary>
+            No DbContext named '{name}' was found.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.LogUseContext(System.Object)">
+            <summary>
+            Using context '{name}'.
+            </summary>
+        </member>
+        <member name="P:Microsoft.EntityFrameworkCore.ToolsCoreStrings.ManuallyDeleted">
+            <summary>
+            A manual migration deletion was detected.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.NoMigrationFile(System.Object,System.Object)">
+            <summary>
+            No file named '{file}' was found. You must manually remove the migration class '{migrationClass}'.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.NoMigrationMetadataFile(System.Object)">
+            <summary>
+            No file named '{file}' was found.
+            </summary>
+        </member>
+        <member name="P:Microsoft.EntityFrameworkCore.ToolsCoreStrings.NoSnapshot">
+            <summary>
+            No ModelSnapshot was found.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.NoSnapshotFile(System.Object,System.Object)">
+            <summary>
+            No file named '{file}' was found. You must manually remove the model snapshot class '{snapshotClass}'.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.RemovingMigration(System.Object)">
+            <summary>
+            Removing migration '{name}'.
+            </summary>
+        </member>
+        <member name="P:Microsoft.EntityFrameworkCore.ToolsCoreStrings.RemovingSnapshot">
+            <summary>
+            Removing model snapshot.
+            </summary>
+        </member>
+        <member name="P:Microsoft.EntityFrameworkCore.ToolsCoreStrings.RevertingSnapshot">
+            <summary>
+            Reverting model snapshot.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.UnapplyMigration(System.Object)">
+            <summary>
+            The migration '{name}' has already been applied to the database. Unapply it and try again. If the migration has been applied to other databases, consider reverting its changes using a new migration.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.UnknownOperation(System.Object)">
+            <summary>
+            The current CSharpMigrationOperationGenerator cannot scaffold operations of type '{operationType}'. Configure your services to use one that can.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.UnknownLiteral(System.Object)">
+            <summary>
+            The current CSharpHelper cannot scaffold literals of type '{literalType}'. Configure your services to use one that can.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.CannotFindRuntimeProviderAssembly(System.Object)">
+            <summary>
+            Unable to find provider assembly with name {assemblyName}. Ensure the specified name is correct and is referenced by the project.
+            </summary>
+        </member>
+        <member name="P:Microsoft.EntityFrameworkCore.ToolsCoreStrings.DestructiveOperation">
+            <summary>
+            An operation was scaffolded that may result in the loss of data. Please review the migration for accuracy.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.ReusingDirectory(System.Object)">
+            <summary>
+            Reusing directory of file '{file}'.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.WritingMigration(System.Object)">
+            <summary>
+            Writing migration to '{file}'.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.WritingSnapshot(System.Object)">
+            <summary>
+            Writing model snapshot to '{file}'.
+            </summary>
+        </member>
+        <member name="P:Microsoft.EntityFrameworkCore.ToolsCoreStrings.Done">
+            <summary>
+            Done.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.ReusingNamespace(System.Object)">
+            <summary>
+            Reusing namespace of type '{type}'.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.ReusingSnapshotName(System.Object)">
+            <summary>
+            Reusing model snapshot name '{name}'.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.CannotFindDesignTimeProviderAssembly(System.Object)">
+            <summary>
+            Unable to find design-time provider assembly. Please install the {designTimeProviderAssemblyName} NuGet package and ensure that the package is referenced by the project.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.CannotFindDesignTimeProviderAssemblyAttribute(System.Object,System.Object)">
+            <summary>
+            Unable to find expected assembly attribute named {attributeName} in provider assembly {runtimeProviderAssemblyName}. This attribute is required to identify the class which acts as the design-time service provider factory.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.NonRelationalProvider(System.Object)">
+            <summary>
+            {provider} is not a Relational provider and therefore cannot be use with Migrations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.UnreferencedAssembly(System.Object,System.Object)">
+            <summary>
+            Could not load assembly '{assembly}'. Ensure it is referenced by the startup project '{startupProject}'.
+            </summary>
+        </member>
+        <member name="P:Microsoft.EntityFrameworkCore.ToolsCoreStrings.LogFindingContexts">
+            <summary>
+            Finding DbContext classes...
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.ForeignMigrations(System.Object)">
+            <summary>
+            The namespace '{migrationsNamespace}' contains migrations for a different DbContext. This can result in conflicting migration names. It's reccommend to put migrations for different DbContext classes into different namespaces.
+            </summary>
+        </member>
+        <member name="P:Microsoft.EntityFrameworkCore.ToolsCoreStrings.ConnectionStringRequired">
+            <summary>
+            ConnectionString is required to generate code.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.ContextClassNotValidCSharpIdentifier(System.Object)">
+            <summary>
+            The context class name passed in, {contextClassName}, is not a valid C# identifier.
+            </summary>
+        </member>
+        <member name="P:Microsoft.EntityFrameworkCore.ToolsCoreStrings.ProjectPathRequired">
+            <summary>
+            ProjectPath is required to generate code.
+            </summary>
+        </member>
+        <member name="P:Microsoft.EntityFrameworkCore.ToolsCoreStrings.RootNamespaceRequired">
+            <summary>
+            Root namespace of the project is required to generate code.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.MigrationsAssemblyMismatch(System.Object,System.Object)">
+            <summary>
+            Your target project '{assembly}' doesn't match your migrations assembly '{migrationsAssembly}'. Either change your target project or change your migrations assembly.
+            Change your migrations assembly by using DbContextOptionsBuilder. E.g. options.UseSqlServer(connection, b =&gt; b.MigrationsAssembly("{assembly}")). By default, the migrations assembly is the assembly containing the DbContext.
+            Change your target project to the migrations project by using the Package Manager Console's Default project drop-down list, or by executing "dotnet ef" from the directory containing the migrations project.
+            </summary>
+        </member>
+        <member name="P:Microsoft.EntityFrameworkCore.ToolsCoreStrings.SensitiveInformationWarning">
+            <summary>
+            To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.ForceRemoveMigration(System.Object)">
+            <summary>
+            Removing migration '{name}' without checking the database. If this migration has been applied to the database, you will need to manually reverse the changes it made.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.ToolsCoreStrings.NoParameterlessConstructor(System.Object)">
+            <summary>
+            No parameterless constructor was found on '{contextType}'. Either add a parameterless constructor to '{contextType}' or add an implementation of 'IDbContextFactory&lt;{contextType}&gt;' in the same assembly as '{contextType}'.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Scaffolding.Internal.CodeWriter.GetExistingFilePaths(System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.EntityFrameworkCore.Metadata.IEntityType})">
+            <summary>
+                Returns a list of the files which would be output by this class where
+                the file already exists.
+            </summary>
+            <param name="outputPath"> directory where the files are to be output </param>
+            <param name="dbContextClassName"> name of the <see cref="T:Microsoft.EntityFrameworkCore.DbContext" /> class </param>
+            <param name="entityTypes"> a list of the <see cref="T:Microsoft.EntityFrameworkCore.Metadata.IEntityType" /> classes to be output </param>
+            <returns> A list of paths to the output files which already exist </returns>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Scaffolding.Internal.CodeWriter.GetReadOnlyFilePaths(System.String,System.String,System.Collections.Generic.IEnumerable{Microsoft.EntityFrameworkCore.Metadata.IEntityType})">
+            <summary>
+                Returns a list of the files which would be output by this class but
+                which currently exist and would not be able to be overwritten due to
+                being read-only.
+            </summary>
+            <param name="outputPath"> directory where the files are to be output </param>
+            <param name="dbContextClassName"> name of the <see cref="T:Microsoft.EntityFrameworkCore.DbContext" /> class </param>
+            <param name="entityTypes"> a list of the <see cref="T:Microsoft.EntityFrameworkCore.Metadata.IEntityType" /> classes to be output </param>
+            <returns> A list of paths to the output files which currently exist and are read-only </returns>
+        </member>
+        <member name="T:Microsoft.EntityFrameworkCore.Scaffolding.Internal.IFileService">
+            <summary>
+                Abstraction for outputting a 'file'. Normally this will be outputting a file to disk
+                but this allows for other implementations which e.g. just output to memory.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Scaffolding.Internal.IFileService.IsFileReadOnly(System.String,System.String)">
+            <summary>
+                Checks whether 'file' is read-only. Absence of the 'file' is interpreted as readable.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Scaffolding.Internal.IFileService.OutputFile(System.String,System.String,System.String)">
+            <summary>
+                Creates, if necessary, a directory with the specified name. Creates, if necessary,
+                a 'file' located within the given directory and with the given name.
+                Ensures that the contents of the 'file' contain the given contents (overwriting if necessary).
+            </summary>
+            <returns>the full path of the output 'file'</returns>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Scaffolding.Internal.ReverseEngineeringGenerator.ConstructNamespaceAndCanonicalizedPaths(System.String,System.String,System.String)">
+            <summary>
+                Construct canonicalized paths from the project path and output path and a namespace
+                based om the root namespace for the project.
+            </summary>
+            <param name="rootNamespace"> the root namespace for the project, must not be empty </param>
+            <param name="projectPath"> path to the project, must not be empty, can be absolute or relative </param>
+            <param name="outputPath"> path to output directory, can be null or empty, can be absolute or relative (to the project path) </param>
+            <returns>
+                an <see cref="T:Microsoft.EntityFrameworkCore.Scaffolding.Internal.ReverseEngineeringGenerator.NamespaceAndOutputPaths" /> object containing the canonicalized paths
+                and the namespace
+            </returns>
+        </member>
+    </members>
+</doc>

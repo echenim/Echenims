@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>dotnet-ef</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.EntityFrameworkCore.Design.OperationExecutor">
+            <summary>
+                A version-resilient, AppDomain-and-reflection-friendly facade for command operations.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Internal.ToolsStrings.BuildFailed(System.Object)">
+            <summary>
+            Build failed on '{projectName}'.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Internal.ToolsStrings.ClassLibrariesNotSupportedInCli(System.Object)">
+            <summary>
+            This preview of Entity Framework tools does not support targeting class library projects in ASP.NET Core and .NET Core applications. See {fwlink} for details and workarounds.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Internal.ToolsStrings.LogBeginDispatch(System.Object,System.Object)">
+            <summary>
+            Invoking dependency command '{projectCommand}' in project '{projectName}'
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Internal.ToolsStrings.LogUsingConfiguration(System.Object)">
+            <summary>
+            Using configuration '{configName}'.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Internal.ToolsStrings.LogUsingFramework(System.Object)">
+            <summary>
+            Using framework '{frameworkName}'.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Internal.ToolsStrings.LogUsingProject(System.Object)">
+            <summary>
+            Using project '{projectName}'.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Internal.ToolsStrings.ProjectDependencyCommandNotFound(System.Object,System.Object)">
+            <summary>
+            Could not invoke this command on the project. Check that the version of {projectCommand} in "tools" and "dependencies" are the same. See {fwlink} for more details.
+            </summary>
+        </member>
+    </members>
+</doc>

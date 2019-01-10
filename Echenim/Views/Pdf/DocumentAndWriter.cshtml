@@ -1,0 +1,27 @@
+﻿@model Echenim.Models.PdfExample
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var imagePath = Server.MapPath("~/Content/Images");
+}
+<h1>@Model.Heading</h1>
+<p>
+    This photograph was taken by a soldier in Afghanistan during a rescue mission. The pilot is a PA National guardsman whose regular job is an EMT helicopter pilot. How many pilots do you know can set the back end of a helicopter down on a shack, in a steep mountain cliff while allowing soldiers load wounded comrades in the rear. Kudos to all reserve and national guard citizen soldiers and the civilian employers who support them
+
+</p>
+<img src="@imagePath\avatar.jpg" alt="mug shot" /><br />
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Description</th>
+        <th>Price</th>
+    </tr>
+    @foreach (var item in Model.Items)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Description</td>
+            <td>@Html.Raw("N") @item.Price.ToString()</td>
+        </tr>
+    }
+</table>
